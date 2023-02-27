@@ -1,13 +1,36 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.icon {
+  width: 120%;
+  height: 140%;
+  background-image: url("../src/assets/images/greenwich.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+input:focus {
+  outline-color: rgb(5, 149, 227);
+}
+.text {
+  position: relative;
+  bottom: 0.5%;
+}
+.site-container {
+  min-height: 100vh;
+}
+.small-container {
+  align-items: center;
+  max-width: 600px;
+  margin-top: 150px;
 }
