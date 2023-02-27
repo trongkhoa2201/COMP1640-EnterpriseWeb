@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     font-size: 12px;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(4, 247, 255));
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.032), rgba(4, 63, 255, 0.755));
     background-repeat: no-repeat;
     
 }
@@ -37,7 +37,7 @@
 .login-btn {
     width: 40%;
     height: 55px;
-    background-color: rgb(0, 255, 242);
+    background-color: rgb(4, 63, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ input:focus {
 .icon {
     width: 120%;
     height: 140%;
-    background-image: url(C:\Users\pv\Desktop\COMP1640-EnterpriseWeb\comp1640\src\assets\images\greenwich.png);
+    background-image: url("../assets/images/greenwich.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
