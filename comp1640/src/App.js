@@ -1,9 +1,12 @@
-import LoginForm from "./components/loginform";
+import "bootstrap/dist/css/bootstrap.min.css";
+import CRUD from "./Page/CRUD";
+
 
 function App() {
   return (
     <div className="page">
-      <LoginForm />
+      <CRUD/>
+      {/* <LoginForm /> */}
     </div>
   );
 }
