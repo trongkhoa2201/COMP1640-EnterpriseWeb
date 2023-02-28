@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Modal } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import { Button, Modal } from "react-bootstrap";
 
 function CRUD() {
   const [show, setShow] = useState(false);
@@ -30,7 +29,7 @@ function CRUD() {
           </div>
           <div class="col-sm-3 offset-sm-1  mt-5 mb-4 ">
             <Button variant="primary" onClick={handleShow}>
-              Add New Student
+              Add New Accounts
             </Button>
           </div>
         </div>
